@@ -30,3 +30,9 @@ print("Displaying.....")
 print(story)
 
 print("Done!\n Thanks for reading this story")
+
+
+#writing this story on a file
+write_story= open("My Story.txt", "w")
+write_story.write(story)
+print("This story is already saved on a text file for you")
